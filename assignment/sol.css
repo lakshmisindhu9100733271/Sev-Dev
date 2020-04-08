@@ -1,21 +1,24 @@
 h1 {
     border : 5px solid rgb(33,10,165);
-    border-style : solid;
+    border-style : double;
+    box-sizing : content-box;
+    position: sticky;
 
  }
 
 table{
     border : 2px solid black;
     border-style : solid;
+    border-collapse : collapse;
     
 
 }
 
-th{
+td{
     border : 2px solid black;
     border-style : solid;
 }
-td{
+th{
     border : 2px solid black;
     border-style : solid;
 }
@@ -24,8 +27,8 @@ img{
 }
 div{
     padding-top : 50px;
-    padding-bottom : 30px;
-    padding-right : 50px;
+    padding-right : 30px;
+    padding-bottom : 50px;
     padding-left : 80px;
 }
 p{
