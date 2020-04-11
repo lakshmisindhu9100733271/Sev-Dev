@@ -1,0 +1,21 @@
+body {
+    background-image: url('sin.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+  
+  input [type = text]{
+      background-color:bisque;
+  
+  }
+  button{
+      width : 100px;
+      height: 30px;
+      background-color:azure;
+  
+  }
+  button:hover{
+      background-color:yellow;
+  
+  }
